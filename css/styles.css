@@ -1,0 +1,271 @@
+body{
+    font-family: "Montserrat";
+}
+#title{
+    background-color: #ff4c68;
+    color:white;
+}
+.container-fluid{
+    padding: 3% 15% ;
+}
+#heading{
+    font-family: 'Heebo', sans-serif;
+    line-height: 1.5;
+    font-size: 3.5rem;
+    
+}
+/* Navigation Bar */
+.navbar{
+    padding:0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-left: 0;
+    margin-bottom: 1rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+/* Download Button */
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+/* Title Image */
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    margin: auto auto -12rem 50px;
+}
+
+
+
+/* Features */
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    text-align: center;
+    position: relative;
+    
+}
+h2{
+    font-family: 'Heebo', sans-serif;
+    color:white;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+h3{
+    font-size: 1.5rem;
+    font-family: 'Heebo', sans-serif;
+    margin:20px 5px 5px 10px;
+    text-align: center;
+}
+.fa-solid{
+    
+    color: pink;
+}
+.fa-solid:hover{
+    color:#ff4c68;
+}
+p{
+    color: #8f8f8f;
+    text-align: center;
+}
+
+/* Testimonials */
+#testimonials{
+    text-align: center;
+    background-color: #ff4c68;
+
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+/* Press */
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 15px;
+}
+/* Media Query BreakPoint */
+@media (max-width: 1000px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        transform:rotate(0deg);
+    }
+}
+/* Cards & Pricing */
+
+/*=============================================================
+    Authour URL: www.designbootstrap.com
+    
+    http://www.designbootstrap.com/
+
+    License: MIT     
+========================================================  */
+
+/*============================================================
+BACKGROUND COLORS
+============================================================*/
+/* .db-bk-color-one {
+    background-color: #f55039;
+}
+
+.db-bk-color-two {
+    background-color: #46A6F7;
+}
+
+.db-bk-color-three {
+    background-color: #47887E;
+}
+
+.db-bk-color-six {
+    background-color: #F59B24;
+}
+/*============================================================
+PRICING STYLES
+==========================================================*/
+.pricing-div{
+    padding-bottom: 0px;
+    width: 99%;
+    margin-left: 10px;
+}
+.db-padding-btm {
+    padding-bottom: 50px;
+}
+.db-button-color-square {
+    color: #fff;
+    background-color: #8f8f8f;
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0.50);
+    border: 2px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+
+    .db-button-color-square:hover {
+        color: black;
+        background-color: rgba(0, 0, 0, 0.50);
+    }
+
+
+.db-pricing-eleven {
+   
+    
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+    color: black;
+    background-color: yellow;
+    line-height: 30px;
+}
+
+.db-pricing-eleven ul li {
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+
+    .db-pricing-eleven ul li i {
+        margin-right: 5px;
+    }
+
+
+
+    .db-pricing-eleven .price {
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 40px 20px 20px 20px;
+        font-size: 60px;
+        font-weight: 900;
+        color: #FFFFFF;
+    }
+
+        .db-pricing-eleven .price small {
+            color: #B8B8B8;
+            display: block;
+            font-size: 12px;
+            margin-top: 22px;
+        }
+
+    .db-pricing-eleven .type {
+        background-color: #52E89E;
+        padding: 50px 20px;
+        font-weight: 900;
+        text-transform: uppercase;
+        font-size: 30px;
+    }
+
+    .db-pricing-eleven .pricing-footer {
+        padding: 20px;
+    }
+
+.db-attached > .col-lg-4,
+.db-attached > .col-lg-3,
+.db-attached > .col-md-4,
+.db-attached > .col-md-3,
+.db-attached > .col-sm-4,
+.db-attached > .col-sm-3 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.db-pricing-eleven.popular {
+    margin-top: 10px;
+}
+
+    .db-pricing-eleven.popular .price {
+        padding-top: 80px;
+    }
+/* Footer Section */
+#cta{
+    background-color: #ff4c68;
+    padding: 7% 15%;
+    text-align: center;
+    
+}
+.footer-line{
+    padding-top: 30px;
+    margin-bottom: 50px;
+    
+    color: #fff;
+    font-size: 3.5rem;
+    font-family: 'Heebo', sans-serif;
+}
+.footer-button{
+    margin: 10px;
+    font-family: "Montesrrat";
+}
+#footer{
+    text-align: center;
+    margin-top: 20px;
+}
+.footer-icon{
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+.fa-duotone{
+    margin-left: 100%;
+    margin-bottom:0;
+}
+.gototop{
+    margin-top: 100px;
+}
+
+ 
